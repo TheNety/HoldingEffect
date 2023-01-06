@@ -1,0 +1,15 @@
+plugin-enabled-for: main-hand
+check-interval-ticks: 20
+effect-options:
+  amplifier: 0
+  ambient-particles: true
+  main-particles: true
+main-hand:
+  STONE: GLOWING
+  DIRT: NIGHT_VISION
+  BAKED_POTATO:
+  - GLOWING
+  - NIGHT_VISION
+off-hand:
+  GRAVEL: INVISIBILITY
+  GRASS_BLOCK: FIRE_RESISTANCE
