@@ -1,15 +1,15 @@
 plugin-enabled-for: main-hand
 check-interval-ticks: 20
-effect-options:
+default-options:
   amplifier: 0
   ambient-particles: true
   main-particles: true
 main-hand:
-  STONE: GLOWING
-  DIRT: NIGHT_VISION
-  BAKED_POTATO:
+  DIAMOND: GLOWING
+  ELYTRA: LEVITATION:1:false:true
+  GHAST_TEAR:
   - GLOWING
-  - NIGHT_VISION
+  - LEVITATION
 off-hand:
-  GRAVEL: INVISIBILITY
-  GRASS_BLOCK: FIRE_RESISTANCE
+  GHAST_TEAR: INVISIBILITY
+  COAL: FIRE_RESISTANCE:2
